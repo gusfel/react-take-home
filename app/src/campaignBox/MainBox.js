@@ -1,6 +1,6 @@
 import React from 'react';
 import BoxTop from './BoxTop.js'
-import Carousel from './CarouselItem.js'
+import Carousel from './Carousel.js'
 
 const MainBox = ({ campaign }) => {
   return (
