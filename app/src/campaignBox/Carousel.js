@@ -6,7 +6,6 @@ const Carousel = ({ media }) => {
 
   return (
     <div>
-      {/* {media} */}
       {mediaItems}
     </div>
   )

@@ -8,10 +8,12 @@ const CarouselItem = ({ item }) => {
       </div>
       <div>
         <div>
-          <i class="fas fa-link"></i>
+        <i class="fas fa-link"></i>
         </div>
         <div>
-          <i class="fas fa-download"></i>
+          <a href={item.download_url} download>
+            <i class="fas fa-download"></i>
+          </a>
         </div>
       </div>
     </div>
