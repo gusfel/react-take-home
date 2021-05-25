@@ -25,10 +25,12 @@ class App extends React.Component {
   }
 
   render() {
-    const campaignBoxes = this.state.campaigns.map(camp => <MainBox campaign={camp}/>)
+    const campaignBoxes = this.state.campaigns.map(camp => <MainBox key={camp.id} campaign={camp}/>)
     return (
       <div className="App">
-        <header>header</header>
+        <header>
+          <img id="headerIcon" src="https://www.plugco.in/static/icons/favicon-96x96.png"></img>
+        </header>
         {campaignBoxes}
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />

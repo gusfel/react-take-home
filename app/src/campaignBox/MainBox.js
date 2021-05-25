@@ -1,6 +1,6 @@
 import React from 'react';
 import BoxTop from './BoxTop.js'
-import Carousel from './Carousel.js'
+import BoxCarousel from './BoxCarousel.js'
 
 const MainBox = ({ campaign }) => {
   return (
@@ -10,7 +10,7 @@ const MainBox = ({ campaign }) => {
         name={campaign.campaign_name}
         rate={campaign.pay_per_install}
       />
-      <Carousel media={campaign.medias}/>
+      <BoxCarousel media={campaign.medias}/>
     </div>
   )
 }

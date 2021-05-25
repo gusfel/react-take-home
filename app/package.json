@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@brainhubeu/react-carousel": "^2.0.3",
     "axios": "^0.21.1",
     "babel-jest": "^24.8.0",
     "express": "^4.17.1",

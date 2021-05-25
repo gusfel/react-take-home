@@ -34,9 +34,70 @@
 
 .campaignIcon {
   max-width: 50px;
-  border-radius: 20%;
+  border-radius: 20px;
+  margin-right: 20px;
 }
 
 .carImg {
   max-width: 200px;
+  border-radius: 20px;
+}
+
+.campTitle {
+  font-size: 20px;
+  font-weight: bolder;
+  display: block;
+}
+
+.campRate {
+  font-size: 18px;
+  color: green
+}
+
+.campTitle, .campRate {
+  text-align: left;
+}
+
+.campRateB {
+font-weight: bolder;
+}
+
+.campaignIcon, .campaignInfo {
+  display: inline-block;
+}
+
+.carLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link, .download {
+  /* display: inline-block; */
+  font-size: 50px;
+  color: grey;
+  cursor: pointer;
+}
+
+.carouselImage {
+  position: relative;
+}
+
+.videoIcon {
+  color: grey;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.boxTop {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+#headerIcon {
+  width: 50px;
+  margin-top: 20px;
 }
